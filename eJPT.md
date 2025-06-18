@@ -66,13 +66,14 @@ theHarvester -d <company/domain> -b <source>
 ```
 
 8. Google Dorks
+   
 |Flag|Description|
 |:---:|:---:|
-|site:<domain.com>|List results for domain, using *. infront of domain will list subdomains|
-|inurl:<input>|Searches for a specific text within a URL|
-|intitle:<input>|Filters on on specified word in the page title|
-|filetype:<filetype>|Searches for a specific filetype|
-|cache:<domain>|Displayes a cached domain|
+|site:domain.com|List results for domain, using *. infront of domain will list subdomains|
+|inurl:input|Searches for a specific text within a URL|
+|intitle:input|Filters on on specified word in the page title|
+|filetype:filetype|Searches for a specific filetype|
+|cache:domain|Displayes a cached domain|
 |intitle:"index of"|Common vulnerability, developers might expose directories, old builds and more|
 
 **Sites** - [Whois](https://who.is/), [Netctaft](https://sitereport.netcraft.com/), [DNSDumpster](https://www.dnsdumpster.com/), [Have I Been Pwned](https://www.haveibeenpwned.com), [Google Dorks](https://www.exploit-db.com/google-hacking-database), [Wayback Machine](https://web.archive.org/)
