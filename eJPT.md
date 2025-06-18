@@ -78,7 +78,7 @@ theHarvester -d <company/domain> -b <source>
 
 **Sites** - [Whois](https://who.is/), [Netctaft](https://sitereport.netcraft.com/), [DNSDumpster](https://www.dnsdumpster.com/), [Have I Been Pwned](https://www.haveibeenpwned.com), [Google Dorks](https://www.exploit-db.com/google-hacking-database), [Wayback Machine](https://web.archive.org/)
 
-### Active
+## Active
 |Record|Description|
 |:---:|:---:|
 |A|Resolves a hostname or domain to an IPv4 address|
