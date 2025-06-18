@@ -91,22 +91,22 @@ theHarvester -d <company/domain> -b <source>
 |SRV|Service records|
 |PTR|Resolves an IP address to a hostname|
 
-9. ***dnsenum**, enumerates DNS records
+9. **dnsenum**, enumerates DNS records
 ```bash
 dnsenum <domain>
 ```
 
-10. ***dig**, zone transfer using dig, 
+10. **dig**, zone transfer using dig, 
 ```bash
 dig AXFR @<name server> <domain.domain> 
 ```
 
-11. ***fierce**, DNS reconnaissance tool used to locate non-contiguous IP spaces 
+11. **fierce**, DNS reconnaissance tool used to locate non-contiguous IP spaces 
 ```bash
 fierce -dns <domain>
 ```
 
-11. ***nmap**, Network exploration and security auditing
+11. **nmap**, Network exploration and security auditing
 
 |Commands|Description|
 |:---:|:---:|
