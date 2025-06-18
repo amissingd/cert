@@ -35,7 +35,7 @@ dnsrecon -d <domain>
 dnsrecon -d <domain> -n <dns nameserver> --lifetime <time>
 ```
 
-5. **wafw00f**, -l to list firewalls, -a test all pissible WAF instances
+5. **wafw00f**, -l to list firewalls, -a test all poissible WAF instances
 ```bash
 wafw00f <domain>
 ```
@@ -97,7 +97,7 @@ theHarvester -d <company/domain> -b <source>
 dnsenum <domain>
 ```
 
-10. **dig**, zone transfer using dig, 
+10. **dig**, zone transfer using dig 
 ```bash
 dig AXFR @<name server> <domain.domain> 
 ```
