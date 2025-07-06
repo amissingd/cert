@@ -62,7 +62,7 @@ fierce -dns <domain>
 ```
 
 ## Nmap
-9. **nmap**, -O for OS detection and -Pn if targeting firewall/microsoft, -oN or -oX <path> to export results as txt or xml
+9. **nmap**, 
 
 Scan a range
 ```bash
@@ -88,6 +88,7 @@ nmap -A -Pn -p- <IP>
 ```bash
 nmap -sU -sV <IP>
 ```
+*Useful flags: -O for OS detection and -Pn if targeting firewall/microsoft, -oN or -oX <path> to export results as txt or xml*
 
 10. **nmap**, within MSF
 ```bash 
