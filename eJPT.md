@@ -99,13 +99,12 @@ nmap -sU -sV <IP>
 ```bash 
 db_nmap <options>
 ```
-### Nmap Scripts
 
-Nmap script directory /usr/share/nmap/script/
-
+11. **nmap script*
 ```bash
 nmap --script=<script-name> <target>
 ```
+*Directory located at /usr/share/nmap/script/*
 
 ## SMB
 
