@@ -100,7 +100,7 @@ nmap -sU -sV <IP>
 db_nmap <options>
 ```
 
-11. **nmap script*
+11. *nmap script*
 ```bash
 nmap --script=<script-name> <target>
 ```
