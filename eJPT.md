@@ -1,5 +1,3 @@
-# Information Gathering
-
 ## Site
 
 |File|Description|
@@ -60,7 +58,6 @@ dig AXFR @<name server> <domain.domain>
 ```bash
 fierce -dns <domain>
 ```
-# Footprinting & Scanning
 
 ## Ping sweeps
 
@@ -111,8 +108,6 @@ Nmap script directory /usr/share/nmap/script/
 nmap --script-help=<script>
 ```
 
-# Enumeration
-
 ## SMB
 
 12. **smbclient** -L lists shares, -u for specific user
@@ -146,8 +141,6 @@ enum4linux -a -S <wordlist path>
 ```bash
 search type:auxiliary/exploit name:<name>
 ```
-
-# Vulnerability Assessment
 
 16. **Searchsploit for MSF**
 ```bash
