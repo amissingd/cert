@@ -72,7 +72,7 @@ fping -a -g <ip/<subnet> 2>/dev/null
 ## Nmap Scan
 10. **Nmap** 
 
-Scan a range
+*Scan range*
 ```bash
 sudo nmap -sn <ip>/24
 ```
@@ -111,8 +111,6 @@ Nmap script directory /usr/share/nmap/script/
 nmap --script-help=<script>
 ```
 
----
-
 # Enumeration
 
 ## SMB
@@ -148,8 +146,6 @@ enum4linux -a -S <wordlist path>
 ```bash
 search type:auxiliary/exploit name:<name>
 ```
-
----
 
 # Vulnerability Assessment
 
