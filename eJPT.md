@@ -103,9 +103,8 @@ db_nmap <options>
 
 Nmap script directory /usr/share/nmap/script/
 
-11. **Nmap scripts**
 ```bash
-nmap --script-help=<script>
+nmap --script=<script-name> <target>
 ```
 
 ## SMB
