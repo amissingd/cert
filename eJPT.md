@@ -60,9 +60,17 @@ dig AXFR @<name server> <domain.domain>
 ```bash
 fierce -dns <domain>
 ```
+# Footprinting & Scanning
 
-## Nmap
-9. **nmap**, 
+## Ping sweeps
+
+9. **fping**
+```bash
+fping -a -g <ip/<subnet> 2>/dev/null
+```
+
+## Nmap Scan
+10. **Nmap** 
 
 Scan a range
 ```bash
@@ -98,7 +106,7 @@ db_nmap <options>
 
 Nmap script directory /usr/share/nmap/script/
 
-10. **Nmap scripts**
+11. **Nmap scripts**
 ```bash
 nmap --script-help=<script>
 ```
@@ -109,19 +117,19 @@ nmap --script-help=<script>
 
 ## SMB
 
-11. **smbclient** -L lists shares, -u for specific user
+12. **smbclient** -L lists shares, -u for specific user
 ```bash
 smbclient -L \\\\<ip>\\ -U <username>
 ```
 
-12. **enum4linux**, -a does simple enumeration
+13. **enum4linux**, -a does simple enumeration
 ```bash
 enum4linux -a -S <wordlist path>
 ```
 
 ## MSF
 
-13. **MSF wordlists**
+14. **MSF wordlists**
 ```bash
  /usr/share/metasploit-framework/data/wordlists/
 ```
@@ -136,7 +144,7 @@ enum4linux -a -S <wordlist path>
 |setg variable|set a global variable|
 |loot / cred|shows information gained after SMB enumeration|
 
-13. Search for specific auxiliary/exploit,
+15. Search for specific auxiliary/exploit,
 ```bash
 search type:auxiliary/exploit name:<name>
 ```
@@ -145,17 +153,17 @@ search type:auxiliary/exploit name:<name>
 
 # Vulnerability Assessment
 
-**Searchsploit for MSF**
+16. **Searchsploit for MSF**
 ```bash
 searchsploit  “<exploit>” | grep -e “Metasploit”
 ```
 
-14. **davtest**
+17. **davtest**
 ```bash
 davtest -auth<user:password> -url<url>
 ```
 
-15. **hydra**
+18. **hydra**
 ```bash
 hydra -L <user wordlist> -P <password wordlist>
 ```
