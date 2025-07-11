@@ -135,7 +135,7 @@ enum4linux -a -S <wordlist path>
 |setg variable|set a global variable|
 |loot / cred|shows information gained after SMB enumeration|
 
-15. Search for specific auxiliary/exploit,
+15. Search for auxiliary/exploit in MSF,
 ```bash
 search type:auxiliary/exploit name:<name>
 ```
