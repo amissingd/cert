@@ -154,3 +154,8 @@ davtest -auth<user:password> -url<url>
 ```bash
 hydra -L <user wordlist> -P <password wordlist>
 ```
+
+18. **dirb**
+```bash
+dirb <target> -w <path to wordlist>
+```
